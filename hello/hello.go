@@ -7,11 +7,10 @@ package main
 
 import (
 	"fmt"
-	
+
 	"code.google.com/p/go.example/newmath"
 )
 
 func main() {
-	fmt.Printf("Hello, world.  Sqrt(2) = %g\n", newmath.Sqrt(2))
+	fmt.Printf("Hello, world.  Sqrt(2) = %d\n", newmath.Sqrt(2))
 }
-
