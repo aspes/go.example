@@ -12,5 +12,5 @@ import (
 )
 
 func main() {
-	fmt.Printf("Hello, world.  Sqrt(2) = %d\n", newmath.Sqrt(2))
+	fmt.Printf("Hello, world.  Sqrt(2) = %z\n", newmath.Sqrt(2))
 }
