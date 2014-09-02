@@ -8,7 +8,9 @@ package main
 import (
 	"fmt"
 
-	"code.google.com/p/go.example/newmath"
+	//"code.google.com/p/go.example/newmath"
+	
+	"newmath"
 )
 
 func main() {
