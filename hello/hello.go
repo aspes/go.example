@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	//"code.google.com/p/go.example/newmath"
-	//comment out because:
+	// error msg:
 	/*
 	$ go get github.com/aspes/go.example/hello
 	go: missing Mercurial command. See http://golang.org/s/gogetcmd
@@ -18,12 +18,16 @@ import (
         */
 	
 	//"newmath"
-	//comment out because:
+	// error msg:
 	/* 
-	imports newmath: unrecognized import path "newmath"
+	$ go get github.com/aspes/go.example/hello
+	package github.com/aspes/go.example/hello
+        	imports newmath: unrecognized import path "newmath"
 	*/
 	
 	"github.com/aspes/go.example/newmath"
+	// now remote package install ok
+	// but be careful! this cmd checks local copy first.
 )
 
 func main() {
