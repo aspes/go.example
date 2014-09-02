@@ -27,7 +27,7 @@ import (
 	
 	"github.com/aspes/go.example/newmath"
 	// now remote package install ok
-	// but be careful! this cmd checks local copy first.
+	// but be careful! go get checks local copy first.
 )
 
 func main() {
