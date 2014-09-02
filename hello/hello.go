@@ -9,8 +9,21 @@ import (
 	"fmt"
 
 	//"code.google.com/p/go.example/newmath"
+	//comment out because:
+	/*
+	$ go get github.com/aspes/go.example/hello
+	go: missing Mercurial command. See http://golang.org/s/gogetcmd
+	package github.com/aspes/go.example/hello
+        imports code.google.com/p/go.example/newmath: exec: "hg": executable file not found in %PATH%
+        */
 	
-	"newmath"
+	//"newmath"
+	//comment out because:
+	/* 
+	imports newmath: unrecognized import path "newmath"
+	*/
+	
+	"github.com/aspes/go.example/newmath"
 )
 
 func main() {
